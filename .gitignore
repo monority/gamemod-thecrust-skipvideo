@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+.ruff_cache/
+
+# Build output and local staging
+output/
+dist/
+nexus/
+
+# Third-party binary - download it yourself
+UAssetGUI.exe
+
+# Scratch and logs
+*_out.txt
+*_err.txt
+
+# JSON intermediates of the assets (regenerate with UAssetGUI tojson).
+# Only the small state JSON is kept: tools/fix_skip_baked.py needs it.
+sources/**/*.json
+!sources/**/S_StartBakedCinematic.json
+
+# Extracted textures
+*.ubulk
