@@ -3,6 +3,7 @@
 Skip any cutscene in The Crust. Hold `Space` while it plays: a gauge fills on
 screen and the cutscene stops when the gauge is full.
 
+(https://www.nexusmods.com/thecrust/mods/54)[nexus]
 ## Install
 
 With Vortex: install the archive from the Releases page, enable the mod, then
